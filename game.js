@@ -23,12 +23,14 @@ boxes.forEach((box)=>{
     box.addEventListener("click",()=>{
         if(turnO)
         {
-            box.innerText="O";
+            box.value="O";
+            box.querySelector("img").src="./pngimg.com - letter_o_PNG93.png";
             turnO=false;
         }
         else
         {
-            box.innerText="X";
+            box.value="X";
+            box.querySelector("img").src="./—Pngtree—letter x logo vector_6928618 - Copy.png";
             turnO=true;
         }
         box.disabled=true;
@@ -44,9 +46,9 @@ let main=document.querySelector("main");
 const checkWinner=()=>{
     for(let pattern of winPatterns)
     {
-        let pos1Val=boxes[pattern[0]].innerText;
-        let pos2Val=boxes[pattern[1]].innerText;
-        let pos3Val=boxes[pattern[2]].innerText;
+        let pos1Val=boxes[pattern[0]].value;
+        let pos2Val=boxes[pattern[1]].value;
+        let pos3Val=boxes[pattern[2]].value;
         if(pos1Val!=""&&pos2Val!=""&&pos3Val!="")
         {
             if(pos1Val==pos2Val&&pos2Val==pos3Val)
