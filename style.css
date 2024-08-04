@@ -70,21 +70,21 @@ body{
         height: 3rem;
     }
 }
-@media screen and (min-width:322px) and (max-width:426px) {
+@media screen and (min-width:321px) and (max-width:426px) {
     .box img{
         height: 4rem;
     }
 }
-@media screen and (min-width:427px) and (max-width:850px)
+@media screen and (min-width:426px) and (max-width:850px)
 {
     .box img{
-        height: 7rem;
+        height: 5rem;
     }
 }
 @media screen and (min-width:851px) and (max-width:1445px)
 {
     .box img{
-        height: 8rem;
+        height: 6rem;
     }
     body{
         font-size: x-large;
@@ -102,7 +102,7 @@ body{
 @media screen and (min-width:1446px) 
 {
     .box img{
-        height: 19rem;
+        height: 7rem;
     }
     body{
         font-size: xx-large;

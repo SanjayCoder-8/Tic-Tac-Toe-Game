@@ -15,7 +15,8 @@ const resetGame=()=>{
     turnO=true;
     for(let box of boxes)
     {
-        box.innerText="";
+        box.value="";
+        box.querySelector("img").src="";
         box.disabled=false;
     }
 };
