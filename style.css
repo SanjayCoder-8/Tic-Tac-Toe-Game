@@ -65,3 +65,55 @@ body{
     width: 10cm;
     height: 5cm;
 }
+@media screen and (max-width:321px) {
+    .box img{
+        height: 3rem;
+    }
+}
+@media screen and (min-width:322px) and (max-width:426px) {
+    .box img{
+        height: 4rem;
+    }
+}
+@media screen and (min-width:427px) and (max-width:850px)
+{
+    .box img{
+        height: 7rem;
+    }
+}
+@media screen and (min-width:851px) and (max-width:1445px)
+{
+    .box img{
+        height: 10rem;
+    }
+    body{
+        font-size: x-large;
+    }
+    #s1,#s3{
+        height: 1.5cm;
+        width: 3cm;
+        font-size: large;
+    }
+    .c2{
+        width: 14cm;
+        height:7cm ;
+    }
+}
+@media screen and (min-width:1446px) 
+{
+    .box img{
+        height: 19rem;
+    }
+    body{
+        font-size: xx-large;
+    }
+    .c2{
+        width:20cm;
+        height:10cm ;
+    }
+    #s1,#s3{
+        height: 2.5cm;
+        width: 5cm;
+        font-size: x-large;
+    }
+}
